@@ -1,0 +1,18 @@
+#div1{
+    text-align: left; 
+    margin-left: 30px; 
+    margin-bottom: 80px;
+}
+#div2{
+    height: 300px; 
+    display:flex; 
+    margin-right: 1%; 
+    margin-left: 9%;
+}
+#div3{
+    background-color: white; 
+    height: 80vh; 
+    width: 90%; 
+    border-radius: 1px; 
+    text-align: center;
+}

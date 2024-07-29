@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TBOOKS Sign up</title>
+    <link rel="stylesheet" href="signstyle.css">
+
+
+    <style>
+          h1{
+            color: black;
+            text-align: center;
+            font-size: 70px;
+        }
+        p{
+            color:black;
+            padding: 20px;
+        }
+        button{
+            color: black;
+            border-style: outset;
+            width: 90px;
+            height: 60px;
+            text-align: center;
+            border-radius: 5px;
+            font-size: 10px;       
+            margin: 10px;
+            gap: 50px;
+            background-color:  rgb(235, 226, 189);
+            
+        }
+        fieldset{
+            margin-right: 150px;
+            margin-left: 150px;
+            background-color: aliceblue;
+            border-radius: 1cm; 
+            height: fit-content;
+
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div id="div1">
+        <h1>SIGN UP</h1>
+        <p>
+           <b>
+             You don't have an account with TBOOKS.COM.
+             <br>
+             Please kindly open an account to access the App
+           </b>
+           
+        </p>
+
+
+        <div id="div2">
+            <fieldset>
+                <legend>Sign in</legend>
+                <form>
+                    <h4>Please kindly fill out the form below</h4>
+                    <p>
+                        <legend id="legend1">
+                            <label for="First Name">First Name:</label><br>              
+                        </legend>
+                        <input type="text" id="fname" name="fname"><br><br>
+                    </p>
+                    <p>
+                        <legend id="legend1">
+                            <label for="Last Name"> Last Name:</label><br>              
+                        </legend>
+                        <input type="text" id="lname" name="lname"><br><br>
+                    </p>
+                    <p>
+                        <legend id="legend1">
+                            <label for="birthday">Birthday:</label>
+                        </legend>   
+                        <input type="date" id="birthday" name="birthday" style="width: 35%;">
+                    </p>
+                    <p>
+                        <legend id="legend2">
+                            <label for="Gender">Gender:</label>
+                        </legend>
+                        <select id="ganders" name="ganders" style="width: 35%;">
+                            <option value="---">---</option>
+                            <option value="female">Female</option>
+                            <option value="male">Male</option>
+                            <option value="Both">Both</option>
+                        </select>
+                    </p>
+                    <p>
+                        <legend style="margin-right: 70px; color: black;">
+                            <label for="phone">Enter a phone number:</label><br>
+                        </legend>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" required>
+                    </p>
+                    <p>
+                        <legend id="legend2">
+                            <label for="email"> Email:</label><br>              
+                        </legend>
+                        <input type="text" id="email" name="email" placeholder="someone@example "required><br><br>
+                    </p>
+                    <p> 
+                        <legend id="legend1">
+                            <label for="pwd">Password:</label><br>
+                        </legend>                       
+                        <input type="password" id="pwd" name="pwd"><br><br>
+                    </p>
+                    <p> 
+                        <legend style="margin-right: 90px; color: black;">
+                            <label for="pwd">Confirm password:</label><br>
+                        </legend>                       
+                        <input type="password" id="pwd" name="pwd"><br><br>
+                    </p>
+                    
+
+                    <button id="myButton">
+                        <b>
+                            DONE
+                        </b>
+                    </button>
+                    <script>
+                        var button=document.getElementById("myButton");
+                        button.addEventListener("click",function(){
+                            alert("signing in will save your information with us. Happy Reading. Thank you.");
+                        });
+                    </script>
+
+
+
+
+
+                    <h3>OR</h3>
+                        <h4>Continue with</h4>
+                        <a href="www.google.com">
+                            <button>
+                                <b>
+                                    Google
+                                </b>
+                            </button>              
+                        </a>
+                        <a href="www.facbook.com">
+                            <button>
+                                <b>
+                                    Facebook
+                                </b>
+                            </button>
+                        </a>
+                        <a href="www.mirosoft">
+                            <button>
+                                <b>
+                                    Mirosofts
+                                </b>
+                            </button>
+                        </a>
+            
+            
+
+
+
+
+
+
+
+
+
+                </form>
+            </fieldset>
+        </div>
+           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>

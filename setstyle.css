@@ -1,0 +1,14 @@
+#div1{
+    background-image: url(image/124406.jpg); 
+    height: 150vh; 
+    width: auto; 
+    text-align: center;
+}
+
+#div2{
+    background-color: rgb(166, 166, 112); 
+    height: fit-content; margin-right: 20%; 
+    margin-left: 20%; 
+    border-radius: 1cm; 
+    text-align: center;
+}

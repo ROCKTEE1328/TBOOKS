@@ -1,0 +1,30 @@
+#div1{
+    background-image: url(image/books-seamless-pattern-doodle-outline-textbooks_107791-9584.avif); 
+    height: 350vh; 
+    width: auto; 
+    text-align: center;
+}
+
+#div2{
+    margin-left: 90px; 
+    margin-right: 90px; 
+    margin: 30px; 
+    text-align: center; 
+    border-radius: 3px;
+}
+
+#legend1{
+    margin-right: 150px; 
+    color: black;
+}
+
+#legend2{
+    margin-right: 170px; 
+    color: black;
+}
+
+#myButton{
+    width: 200px; 
+    font-size: large; 
+    height: 40px;
+}
